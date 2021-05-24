@@ -1,0 +1,16 @@
+import React from "react";
+import Logo from "./logo.svg";
+import { Link } from "react-router-dom";
+
+function Header() {
+  return (
+    <div>
+      <img src={Logo} />
+      <nav>
+        <Link to="/">首页</Link>
+      </nav>
+    </div>
+  );
+}
+
+export default Header;
